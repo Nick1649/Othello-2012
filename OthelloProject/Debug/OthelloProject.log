@@ -1,0 +1,30 @@
+﻿Build started 2015-01-11 6:26:54 PM.
+     1>Project "G:\John Abbott\2nd Semester at John Abbott\OthelloProject\OthelloProject.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Othello.cpp
+         Othello.cpp
+     1>g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(53): warning C4258: 'row' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(35) : definition of 'row' ignored
+                 g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(23) : definition of 'row' used
+     1>g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(55): warning C4258: 'row' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(35) : definition of 'row' ignored
+                 g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(23) : definition of 'row' used
+     1>g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(59): warning C4258: 'row' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(35) : definition of 'row' ignored
+                 g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(23) : definition of 'row' used
+     1>g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(66): warning C4258: 'row' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(35) : definition of 'row' ignored
+                 g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(23) : definition of 'row' used
+         Main.cpp
+         Generating Code...
+     1>g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(75): warning C4700: uninitialized local variable 'totBlack' used
+     1>g:\john abbott\2nd semester at john abbott\othelloproject\othello.cpp(79): warning C4700: uninitialized local variable 'totWhite' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\John Abbott\2nd Semester at John Abbott\OthelloProject\Debug\OthelloProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\John Abbott\2nd Semester at John Abbott\OthelloProject\Debug\OthelloProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\John Abbott\2nd Semester at John Abbott\OthelloProject\Debug\OthelloProject.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Othello.obj
+         OthelloProject.vcxproj -> G:\John Abbott\2nd Semester at John Abbott\OthelloProject\Debug\OthelloProject.exe
+     1>Done Building Project "G:\John Abbott\2nd Semester at John Abbott\OthelloProject\OthelloProject.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.89

@@ -1,0 +1,62 @@
+for (int r = row-1; BOARD_SIZE > r > 0; r++)
+	{
+		for (int c = col-1; BOARD_SIZE > c > 0; c++)
+		{
+			if (theBoard[r][c] != currentPlayer && theBoard[r][c] != Blank)
+			{
+				 if (r == row)
+				 {
+					 for (int r1 = r; r1 > 0; r1 ++) //checks left
+					 {
+
+					 }
+
+					 for (int r2 = r; r2 < BOARD_SIZE; r2 ++) //checks right
+					 {
+
+					 }
+				 }
+			}
+		}
+	}
+
+
+
+if (theBoard[row-1][col-1] != currentPlayer || theBoard[row-1][col-1] != Blank)
+	{
+		for (r = row; r > 0; r++) //checks left
+		{
+
+		}
+
+		for (r2 = row; r2 < BOARD_SIZE; r2 ++) //checks right
+		{
+
+		}
+	}
+
+
+
+if (row-1 > 0 && theBoard[row-1][col] != currentPlayer && theBoard[row-1][col] != Blank)//checks up
+	{
+		for (r = row-1; r >= 0; r--)
+		{
+			if (theBoard[r][col] == Blank)//makes sure that there is no blank spaces in-between
+			{
+				break;
+			}
+
+			if (theBoard[r][col] == currentPlayer)//turn
+			{
+				for (r2 = r+1; r2 < row; r2 ++)
+				{
+					theBoard[r2][col] == currentPlayer;
+
+					if (ValidMove (r2,col))
+					{
+						MakeMove(r2,col);
+					}
+				}
+			}
+		}
+	}
